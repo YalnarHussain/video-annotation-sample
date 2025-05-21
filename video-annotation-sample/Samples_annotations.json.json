@@ -1,0 +1,318 @@
+{
+  "project": {
+    "pid": "f3ddba44-1686-4c58-bf66-09e71c7c541f",
+    "rev": "1",
+    "rev_timestamp": "1738931616628",
+    "pname": "Demo",
+    "creator": "VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via)",
+    "created": 1738930470624,
+    "vid_list": ["1"]
+  },
+  "config": {
+    "file": { "loc_prefix": { "1": "", "2": "", "3": "", "4": "" } },
+    "ui": {
+      "file_content_align": "center",
+      "file_metadata_editor_visible": true,
+      "spatial_metadata_editor_visible": true,
+      "temporal_segment_metadata_editor_visible": true,
+      "spatial_region_label_attribute_id": "",
+      "gtimeline_visible_row_count": "10"
+    }
+  },
+  "attribute": {
+    "1": {
+      "aname": "TEMPORAL-SEGMENTS",
+      "anchor_id": "FILE1_Z2_XY0",
+      "type": 4,
+      "desc": "Temporal segment attribute added by default",
+      "options": { "default": "Default" },
+      "default_option_id": ""
+    }
+  },
+  "file": {
+    "1": { "fid": "1", "fname": "demo.mp4", "type": 4, "loc": 1, "src": "" }
+  },
+  "metadata": {
+    "1_NmL5Na96": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "No repair" }
+    },
+    "1_r0WtcIe5": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Maintenance only" }
+    },
+    "1_DpR2Q5MW": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Component replacement" }
+    },
+    "1_te7X51pi": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Pull from conveyor" }
+    },
+    "1_pvXuiMen": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Push to conveyor" }
+    },
+    "1_W1dHU8I5": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Pull from floor" }
+    },
+    "1_1QXRkXkp": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Push to floor" }
+    },
+    "1_fQpK3eVH": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "3'' Nail gun" }
+    },
+    "1_1adoXSfX": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Clinch nail gun" }
+    },
+    "1_tpuej1mN": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Board spreader" }
+    },
+    "1_UJWzLDwd": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Hammer" }
+    },
+    "1_E8aM91K2": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Long base board 1" }
+    },
+    "1_BbhkN3cK": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Long base board 2" }
+    },
+    "1_0xGrCXU5": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Long base board 3" }
+    },
+    "1_JbdT9WXu": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Short base board 1" }
+    },
+    "1_mww27v1r": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Short base board 2" }
+    },
+    "1_x3k7zYlL": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Top board 1" }
+    },
+    "1_otLKIzdZ": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Top board 2" }
+    },
+    "1_k7ogIIfP": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Top board 3" }
+    },
+    "1_pt0oiZ26": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Top board 4" }
+    },
+    "1_oSubk9ew": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Top board 5" }
+    },
+    "1_SRcr4SlS": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Top board 6" }
+    },
+    "1_XsVOl86X": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Top board 7" }
+    },
+    "1_730dxUzp": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Top board 8" }
+    },
+    "1_blZFhVm9": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Top board 9" }
+    },
+    "1_Xl6X7ESW": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Connector board 1" }
+    },
+    "1_GrVQqDXv": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Connector board 2" }
+    },
+    "1_Xeveg0RA": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Connector board 3" }
+    },
+    "1_nSKd07P7": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Corner block 1" }
+    },
+    "1_prac6iF5": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Corner block 2" }
+    },
+    "1_EotIMXR6": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Corner block 3" }
+    },
+    "1_2qO2HxFQ": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Corner block 4" }
+    },
+    "1_hz7P6VtR": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Center block" }
+    },
+    "1_OA4k2hRv": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Small support block 1" }
+    },
+    "1_lA9EALeP": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Small support block 2" }
+    },
+    "1_3LruqZHO": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Large support block 1" }
+    },
+    "1_laJVrKAX": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Large support block 2" }
+    },
+    "1_1sXQWC3L": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Saw" }
+    },
+    "1_1sXQWC3Z": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Misc" }
+    },
+    "1_1sXQWC3Q": {
+      "vid": "1",
+      "flg": 0,
+      "z": [0, 0],
+      "xy": [],
+      "av": { "1": "Component removal" }
+    }
+  },
+  "view": { "1": { "fid_list": ["1"] } }
+}

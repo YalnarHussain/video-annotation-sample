@@ -1,29 +1,59 @@
-# Video Annotation Sample Project
+## 🧰 Tools & Annotation Schema
 
-This is a sample project showing how I annotated videos using the [VGG Image Annotator (VIA)](https://www.robots.ox.ac.uk/~vgg/software/via/) tool.
+* **Annotation Tool:** [VGG Image Annotator (VIA)](https://www.robots.ox.ac.uk/~vgg/software/via/)
+* **Methodology:** Manual frame-by-frame tagging, temporal segmentation, and class-specific timestamping across multiple videos.
+* **Output Format:** Structured JSON annotations exportable for ML model training pipelines.
 
-## 🔍 Overview
+---
 
-The annotations were created for video footage of industrial tasks. The goal was to:
+### 🧠 Class Taxonomy (40 Classes per Video)
 
-- Label each action or tool used frame-by-frame
-- Use temporal segmentation to show exactly when each tool or task appears
-- Export clean JSON data for machine learning or review
+The annotation schema was structured into **three main categories** to support multi-label classification and temporal activity detection:
 
-## 📁 Files in This Repo
+---
 
-| File/Folder            | Description                          |
-|------------------------|--------------------------------------|
-| `sample_annotations.json` | VIA-exported annotation data (no video included due to confidentiality) |
-| `screenshots/`         | Images showing example annotation timeline |
+**🔧 Tool Interaction Classes**
+*(Capturing tool usage and operational engagement)*
 
-## 🧰 Tools Used
+* 3'' Nail gun
+* Clinch nail gun
+* Hammer
+* Saw
+* Board spreader
 
-- VIA (VGG Image Annotator)
-- Manual tagging and timestamping
-- Classes included: nail gun, conveyor, board spreader, etc.
+---
 
-## 📝 Note
+**⚙️ Process & Task States**
+*(Identifying repair stages, movement patterns, and manual handling of components)*
 
-The actual video is **not included** for confidentiality.  
-This project is for demonstration purposes only.
+* Component replacement
+* Component removal
+* Maintenance only
+* No repair
+* Pull from conveyor
+* Push to conveyor
+* Pull from floor
+* Push to floor
+
+---
+
+**🧱 Structural Components**
+*(Tracking presence, usage, and assembly of physical parts and materials)*
+
+* Long base boards (1–3)
+* Short base boards (1–2)
+* Top boards (1–9)
+* Connector boards (1–3)
+* Corner blocks (1–4)
+* Support blocks
+
+  * Small (1–2)
+  * Large (1–2)
+* Center block
+
+---
+
+**📂 Miscellaneous Class**
+
+* Misc *(Used for outliers or non-critical visual segments not falling under above categories)*
+
